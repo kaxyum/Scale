@@ -1,0 +1,8 @@
+---
+cmdname: "scale"
+cmddescription: "change the scale of the player"
+cmdaliases: ["s"]
+cmdpermission: "scale.use"
+title: "§6> §eScale §s6<"
+text: "§cnew scale: §4{scale}"
+...

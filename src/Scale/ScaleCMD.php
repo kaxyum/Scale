@@ -18,7 +18,7 @@ class ScaleCMD extends Command{
     {
         $cfg = Main::getInstance()->getConfig();
         if ($sender instanceof Player) {
-            if($sender->hasPermission("pocketmine.group.operator"){
+            if($sender->hasPermission("pocketmine.group.operator")){
                 if(empty($args[0])){
                 $sender->sendMessage("§c/{$cfg->get("cmdname")} {scale}");
                 }else{
